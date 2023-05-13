@@ -46,7 +46,7 @@ while keep_going:
 
         print(f"{first_number} {op_sign} {second_number} = {result}")
 
-        inp = input("\nWhat's next?\n Keep going from here - Y\nStart from the beginning - C\nExit - Q\n").lower()
+        inp = input("\nWhat's next?\nKeep going from here - Y\nStart from the beginning - C\nExit - Q\n").lower()
 
         if inp == "q":
             keep_going = False
